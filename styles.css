@@ -1,13 +1,18 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+
+/* 
+colors
+#e8e8e8
+#5588a3
+#145374
+#00334e
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 body {
-  background: #f7e7bd;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.4;
+  background: #e8e8e8;
 }
 
 a {
@@ -17,4 +22,90 @@ a {
 p {
   margin: 0.75rem 0;
   font-weight: 550;
+}
+
+/* Bootstrap override */
+.navbar-brand {
+  color: black;
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.5rem;
+}
+
+.navbar-custom {
+  background: #5588a3;
+  color: #fff;
+}
+
+.nav-link {
+  color: black;
+}
+
+/* Utility classes */
+.l-heading {
+  font-size: 6rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.cursive {
+  font-family: 'Great Vibes', cursive;
+}
+
+/* Showcase */
+#showcase {
+  background: #00334e url("./assets/lights.jpg") no-repeat center center/cover;
+  height: 90vh;
+  color: #fff;
+}
+
+#showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  padding: 0 2rem;
+  /* overlay */
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  color: #fff;
+}
+
+/* testing colors */
+.card {
+  color: #fff;
+  text-align: center;
+  border: 2px black solid;
+  padding: 1rem;
+}
+
+#second {
+  background: #e8e8e8;
+}
+
+#second .card-header {
+  background: #5588a3;
+}
+
+#second .secondary {
+  color: black;
+  margin: 10px;
+  min-height: 100px;
+}
+
+#second .third-color {
+  background: #145374;
+  margin: 10px;
+  min-height: 60px;
+}
+
+#second .fourth-color {
+  background: #00334e;
+  margin: 10px;
+  min-height: 18px;
 }
