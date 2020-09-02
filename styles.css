@@ -24,21 +24,20 @@ p {
   font-weight: 550;
 }
 
+nav {
+  min-height: 82px;
+}
+
 /* Bootstrap override */
 .navbar-brand {
-  color: black;
   font-family: 'Great Vibes', cursive;
   font-size: 2.5rem;
 }
 
-.navbar-custom {
-  background: #5588a3;
-  color: #fff;
+.bg-dark {
+  background: #5588a3 !important;
 }
 
-.nav-link {
-  color: black;
-}
 
 /* Utility classes */
 .l-heading {
@@ -68,7 +67,7 @@ p {
   padding: 0 2rem;
   /* overlay */
   position: absolute;
-  top: 80px;
+  top: 82px;
   left: 0;
   right: 0;
   bottom: 0;
