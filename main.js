@@ -10,7 +10,7 @@ $('#navbar a').on('click', function(event) {
       }, 800);
     }
   });
-  
+
   window.addEventListener('scroll', function() {
     if (window.scrollY > 65) {
       document.querySelector('#navbar').style.opacity = 0.8;
