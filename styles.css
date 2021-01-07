@@ -98,6 +98,10 @@ nav {
   border-top: 5px #102b6c solid;
 }
 
+#portfolio .row .card {
+  margin: auto;
+}
+
 /* testing colors */
 
 #second {
